@@ -413,8 +413,14 @@ namespace DesktopNotifications.Windows
             {
                 throw new ArgumentNullException(nameof(file));
             }
-
-            PersistFile.Save(file, true);
+            try
+            {
+                PersistFile.Save(file, true);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
 
         // Load shortcut file.
@@ -424,8 +430,14 @@ namespace DesktopNotifications.Windows
             {
                 throw new FileNotFoundException("File is not found.", file);
             }
-
-            PersistFile.Load(file, STGM_READ);
+            try
+            {
+                PersistFile.Load(file, STGM_READ);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
 
         // Verify if operation succeeded.
