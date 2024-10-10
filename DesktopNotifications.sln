@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopNotifications", "DesktopNotifications\DesktopNotifications.csproj", "{64E5A8ED-29CB-4114-B1B8-EC14512EB15E}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopNotifications.Apple"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopNotifications.Avalonia", "DesktopNotifications.Avalonia\DesktopNotifications.Avalonia.csproj", "{5D9904D2-E102-409D-AAFE-394A3DED40D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Avalonia", "Example.Avalonia\Example.Avalonia.csproj", "{4408FE39-C5AF-453D-B6EE-E1A42504264A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Avalonia", "Example.Avalonia\Example.Avalonia.csproj", "{4408FE39-C5AF-453D-B6EE-E1A42504264A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

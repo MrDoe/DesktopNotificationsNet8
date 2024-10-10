@@ -15,6 +15,9 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/pr8x/DesktopNotifications</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageId>DesktopNotificationsNet8.FreeDesktop</PackageId>
+		<Title>DesktopNotificationsNet8.FreeDesktop</Title>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -25,4 +28,10 @@
 		<ProjectReference Include="..\DesktopNotifications\DesktopNotifications.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 </Project>
