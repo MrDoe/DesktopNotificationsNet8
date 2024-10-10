@@ -14,10 +14,10 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Avalonia" Version="11.0.1" />
-		<PackageReference Include="Avalonia.Desktop" Version="11.0.1" />
-		<PackageReference Include="Avalonia.Diagnostics" Version="11.0.1" />
-		<PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.1" />
+		<PackageReference Include="Avalonia" Version="11.1.4" />
+		<PackageReference Include="Avalonia.Desktop" Version="11.1.4" />
+		<PackageReference Include="Avalonia.Diagnostics" Version="11.1.4" />
+		<PackageReference Include="Avalonia.Themes.Fluent" Version="11.1.4" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\DesktopNotifications.Avalonia\DesktopNotifications.Avalonia.csproj" />
